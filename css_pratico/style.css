@@ -1,0 +1,34 @@
+body{background-color: blueviolet 
+    ;}
+
+    .texto{
+        front: size 20px;      /*tamanho da fonte */    
+        line-height: 35px;  /* entre linhas*/
+    color: aqua;  /* cor da fonte*/
+font-style: italic; /* estilo da fonte */
+font-weight: 600; /* largura da fonte */
+text-alingn :right;} /*alinhamento de texto */
+.texto a{
+    color: rgb(235, 9, 220);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .borda{
+    width: 500px;
+    border: 1px solid coral;
+    /*tamanho,tipo,cor*/
+ margin: 0 auto;
+ margin-top: 40px;
+ /*top letft right bottom*/
+
+ padding: 40px;
+ padding-top: 40px; /*padding é o espaçamento da borda*/
+ padding-bottom: 40px;
+}
+.lista{
+    list-style-position: inside;
+    /*posição do marcador inside/outside*/
+    list-style-type: disc;
+    /*disc,circle, square, decimal*/
+}
