@@ -1,0 +1,114 @@
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.logo img{
+    max-width: 200px;
+}
+.menu ul li{
+    display: inline; 
+}
+.header {
+    padding: 20px 0;
+}
+.logo,.menu {
+    display: inline-block; 
+}
+.menu ul li a{
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #d901ff;
+    text-decoration: none; 
+}
+.menu{
+    position: relative;
+    bottom: 40px;
+}
+.menu ul li a:hover{
+    color: #000;
+    border-bottom: 3px solid #000;
+    padding-bottom: 15px;
+}
+.slider{
+    background-image: url('../img/slider.jpeg');
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 5px solid #f2f2f2;
+}
+.item img{
+    width: 100%;
+    padding: 1%;
+}
+.item .titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.btn {
+    background-color: #5c036c;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.item a{
+    text-decoration: none;
+}
+footer{
+    background-color: #5c036c;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+footer label, footer input, footer textarea{
+width: 100%;
+padding: 10px;
+}
+footer form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.Atizapi {
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    padding: 20px;
+}
+.sobre{
+    font: size 22px;
+    line-height: 22px;
+}
+.sobre p,{
+    width: 47%;
+    display: inline-block;
+    padding: 1%;
+}
+.sobre h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.sobre p{
+float: left;
+text-align: justify;
+}
+.sobre img{
+    border-radius: 30px;
+}
